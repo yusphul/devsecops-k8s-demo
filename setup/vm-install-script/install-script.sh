@@ -61,7 +61,8 @@ kubectl get node -o wide
 
 
 echo ".........----------------#################._.-.-Java and MAVEN-.-._.#################----------------........."
-sudo apt install openjdk-8-jdk -y
+#sudo apt install openjdk-8-jdk -y
+sudo apt install openjdk-11-jre -y
 java -version
 sudo apt install -y maven
 mvn -v
